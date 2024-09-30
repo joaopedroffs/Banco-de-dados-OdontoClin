@@ -1,9 +1,9 @@
--- Criação e ativação do banco de dados que iremos usar
+-- Criação e ativação do banco de dados
 
 CREATE DATABASE db_odontoclin;
 use db_odontoclin;
 
--- Aqui começamos a crriação das tabelas
+-- Criação das tabelas
 
 -- Tabela com os atributos dos pacientes
 
@@ -106,7 +106,7 @@ foreign key(dent_id) references tb_dentista(dent_id)
 
 -- AVISO: não execute os DELETEs, usei eles para arrumar e alterar dados anteriores, apenas utilize os INSERTs e os UPDATEs.
 
--- Aqui inserimos os atendentes na tabela
+-- Inserir os atendentes na tabela
 
 insert into 
 	tb_atendente
@@ -124,7 +124,7 @@ update tb_atendente set aten_email = 'alessandraandrade@gmail.com' where aten_id
 
 select * from tb_atendente;
 
--- Aqui inserimos os pacientes na tabela
+-- Inserir os pacientes na tabela
 
 insert into 
 	tb_paciente
@@ -140,7 +140,7 @@ values
 
 select * from tb_paciente;
 
--- Aqui inserimos os dentistas na tabela 
+-- Inserir os dentistas na tabela 
 
 insert into
 	tb_dentista
@@ -157,7 +157,7 @@ update tb_dentista set dent_tel = '2134547490' where dent_id = 1;
     
 delete from tb_dentista where dent_id = 2;
 
--- Aqui inserimos os tratamentos na tabela
+-- Inserir os tratamentos na tabela
 
 insert into
 	tb_tratamento
@@ -181,7 +181,7 @@ values
     ( 'Enxerto Ósseo', 'Cirurgia', 3000.00),
     ( 'Consultoria Estética', 'Cosmético', 500.00);
 
--- Aqui inserimos os registros de consulta na tabela
+-- Inserir os registros de consulta na tabela
 
 insert into
 	tb_consulta
@@ -197,7 +197,7 @@ values
     
 select * from tb_consulta;
 
--- Aqui inserimos as informações dos consultórios na tabela 
+-- Inserir as informações dos consultórios na tabela 
 
 insert into
 	tb_consultorio
@@ -209,7 +209,7 @@ values
     
 select * from tb_consultorio;
 
--- Aqui inserimos as informações do prontuário dos pacientes na tabela
+-- Inserir as informações do prontuário dos pacientes na tabela
 
 insert into
 	tb_prontuario
