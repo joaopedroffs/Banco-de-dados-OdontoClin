@@ -37,7 +37,7 @@ O banco de dados OdontoClin permite gerenciar:
 ```bash
 git clone https://github.com/joaopedroffs/banco-de-dados-odontoclin.git
 ```
-2. Importe o arquivo bancodedadosodontoclin.sql para o seu ambiente MySQL.
+2. Importe o arquivo *bancodedadosodontoclin.sql* para o seu ambiente MySQL.
 3. Execute os comandos para criar o banco de dados e as tabelas.
 4. Popule as tabelas com os dados iniciais fornecidos no arquivo.
 
