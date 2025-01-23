@@ -2,6 +2,10 @@
 
 Este repositório contém o projeto de um banco de dados desenvolvido em MySQL para a gestão de uma clínica odontológica fictícia chamada OdontoClin. O sistema foi criado como parte de um trabalho acadêmico, visando simular a gestão de dados de pacientes, dentistas, atendentes, tratamentos, e consultas.
 
+## Tecnologias utilizadas
+
+- MySQL
+
 ## Sobre o Projeto
 
 O banco de dados OdontoClin permite gerenciar:
